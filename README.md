@@ -5,7 +5,7 @@
 - [About](#about)
 - [Getting Started](#getting_started)
 - [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+- [License](#license)
 
 ## About <a name = "about"></a>
 
@@ -48,6 +48,6 @@ Starter kit supports:
 - `npm run build` for production build
 - `npm run build:dev` for development build
 
-## License
+## License <a name = "license"></a>
 
 This project is free and released to the public domain. See [The Unlicense](LICENSE) for detailed terms
