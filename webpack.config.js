@@ -9,7 +9,8 @@ module.exports = (env, argv) => ({
     entry: './src/main.js',
     resolve: {
         alias: {
-            svelte: path.resolve('node_modules', 'svelte')
+            svelte: path.resolve('node_modules', 'svelte'),
+            images: path.resolve('src', 'images')
         },
         extensions: ['.mjs', '.js', '.svelte'],
         mainFields: ['svelte', 'browser', 'module', 'main']
@@ -46,7 +47,13 @@ module.exports = (env, argv) => ({
                         }
                     }
                 ]
-            }
+            },
+            {
+                test: /\.(gif|png|jpe?g|svg)$/i,
+                use: [
+                  'file-loader'
+                ],
+              }
         ]
     },
     devServer: {

@@ -1,6 +1,8 @@
 <script>
     import { SmileIcon } from "svelte-feather-icons";
     import { Router, Route, Link, router } from "yrv";
+    import svelteLogo from "images/svelte-logo.svg";
+    import tailwindLogo from "images/tailwindcss-logo.svg";
 
     // for the sake of simplicity
     // remove if you have SSR and want to use it with the router
@@ -29,6 +31,10 @@
     <div class="h-screen w-full flex flex-col items-center justify-center ">
         <Router>
             <Route exact>
+                <div class="flex w-full justify-center">
+                    <img src="{svelteLogo}" alt="" class="w-20 m-4">
+                    <img src="{tailwindLogo}" class="w-20 m-4" alt="" >
+                </div>
                 <h1 class="text-6xl">Hello world!</h1>
             </Route>
             <Route path="/counter">
