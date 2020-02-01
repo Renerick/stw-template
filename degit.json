@@ -1,6 +1,8 @@
-{
-    "action": "remove",
-    "values": [
-      "LICENSE"
-    ]
-  }
+[
+    {
+        "action": "remove",
+        "files": [
+            "LICENSE"
+        ]
+    }
+]
