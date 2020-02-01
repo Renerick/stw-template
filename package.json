@@ -13,7 +13,7 @@
     "build:dev": "webpack --mode=development"
   },
   "author": "Renerick",
-  "license": "MIT",
+  "license": "Unlicense",
   "devDependencies": {
     "css-loader": "^3.2.0",
     "postcss-loader": "^3.0.0",
